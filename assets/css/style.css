@@ -15,12 +15,12 @@
 .logo{
     margin:10px 60px;
     padding:0 60px;
-    display: block;
+
 }
 
 .border{
     border-bottom: 2px dotted gray;   
-    margin-top: 50px;
+    margin: 30px 0;
 }
 
 ul li {
@@ -64,7 +64,7 @@ ul li ul li:hover {
 
 .header-block{
     width: 50%;
-    margin-top: 60px;
+    margin-top: 50px;
     
 }
 
@@ -167,4 +167,82 @@ div:hover span{
     background-color: #f1f0f0;
     color: black;
 }
+
+.description{
+    padding:30px;
+    gap:25px;
+}
+
+.description h4{
+    padding-left:130px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.description p{
+    padding-left: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: grey;
+}
+.inform{
+    margin-top: 20px;
+}
+.inform h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+.money p{
+    color: gray;
+    text-align:end;
+}
+
+.products{
+    border: 10px solid transparent;
+    padding-left: 150px;
+    
+    
+}
+.products h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+
+}
+
+.products p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: gray;
+    padding: 30px 0;
+}
+.products button{
+    padding: 10px 0;  
+}
+
+.products button a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    color: black; 
+}
+
+.products button a:hover{
+    background-color:black;
+    color:white;
+    border-color: white;
+}
+.bags h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+.bags p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: gray;
+    text-align: center;
+}
+
 

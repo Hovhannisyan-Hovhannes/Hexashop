@@ -1,22 +1,61 @@
 @media (max-width: 1400px){
-  
+  .header-block{
+    width: 100%;
+  }
 } 
 
 @media (max-width: 1200px){
-    
+    .header-block{
+        width: 100%;
+    }
+    .names{
+        width: 100%;
+        flex-wrap: wrap;
+    }
 } 
 
 @media (max-width: 991px){
-    
+    .header-block{
+        width: 100%;
+    }
+    .names{
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 767px){
-   
+   .header-block, .section-block{
+    width: 100%;
+    flex-wrap: wrap;
+   }
+   .names{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.link{
+    flex-wrap: wrap;
+}
+.img{
+    flex-wrap: wrap;
+}
+.logo{
+    flex-wrap: wrap;
+    justify-content: center;
+}
     }
 
 
 @media (max-width: 576px){
+    .header-block{
+        width: 100%;
+    }
+    .names{
+        width: 100%;
+        flex-wrap: wrap;
+    }
     
-    
-    
+ .link{
+    flex-wrap: wrap;
+ }   
 }
